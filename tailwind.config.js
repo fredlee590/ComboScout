@@ -4,14 +4,7 @@ module.exports = {
   theme: {
   	extend: {
   		fontFamily: {
-  			rhr: [
-  				'SF Sports Night',
-  				'sans-serif'
-  			],
-  			'rhr-ns': [
-  				'SF Sports Night NS',
-  				'sans-serif'
-  			]
+  			sans: ["Inter"]
   		},
   		colors: {
   			red: {
@@ -59,6 +52,7 @@ module.exports = {
   			}
   		},
   		borderRadius: {
+			xl: 'calc(var(--radius) + 2px)',
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
