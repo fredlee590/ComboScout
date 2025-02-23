@@ -83,6 +83,17 @@
                     "formResetBehavior": "increment"
                 },
                 {
+                    "title": "Team Number",
+                    "description": "The team number of the robot you're scouting.",
+                    "type": "number",
+                    "required": true,
+                    "code": "teamNumber",
+                    "defaultValue": 0,
+                    "min": 0,
+                    "max": 19999,
+                    "formResetBehavior": "reset"
+                },
+                {
                     "title": "Drive Team Location",
                     "description": "The location of the drive team for the robot you are scouting.",
                     "type": "select",
@@ -98,17 +109,6 @@
                         "B3": "Blue 3 (Open Side)"
                     },
                     "formResetBehavior": "preserve"
-                },
-                {
-                    "title": "Team Number",
-                    "description": "The team number of the robot you're scouting.",
-                    "type": "number",
-                    "required": true,
-                    "code": "teamNumber",
-                    "defaultValue": 0,
-                    "min": 0,
-                    "max": 19999,
-                    "formResetBehavior": "reset"
                 },
                 {
                     "title": "Robot Starting Location",
@@ -129,6 +129,15 @@
         {
             "name": "Autonomous",
             "fields": [
+                {
+                    "code": "aulb",
+                    "title": "Leave Bonus",
+                    "description": "Mark if the robot left the starting line during auto",
+                    "type": "boolean",
+                    "defaultValue": false,
+                    "required": false,
+                    "formResetBehavior": "reset"
+                },
                 {
                     "code": "aucl1",
                     "title": "L1 Coral",
