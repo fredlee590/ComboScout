@@ -101,10 +101,10 @@
                     "code": "robot",
                     "defaultValue": "R1",
                     "choices": {
-                        "R1": "Red 1 (Amp Side)",
+                        "R1": "Red 1 (Processor Side)",
                         "R2": "Red 2 (Middle)",
                         "R3": "Red 3 (Open Side)",
-                        "B1": "Blue 1 (Amp Side)",
+                        "B1": "Blue 1 (Processor Side)",
                         "B2": "Blue 2 (Middle)",
                         "B3": "Blue 3 (Open Side)"
                     },
