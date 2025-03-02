@@ -1,9 +1,9 @@
-import { useQRScoutState } from '@/store/store';
+// import { useQRScoutState } from '@/store/store';
 // import { Heart } from 'lucide-react';
 // import { Logo } from './Logo';
 
 export function Footer() {
-  const teamNumber = useQRScoutState(state => state.formData.teamNumber);
+  // const teamNumber = useQRScoutState(state => state.formData.teamNumber);
   return (
     <footer>
       <div className="mt-8 flex flex-col items-center justify-center p-2 gap-2">
