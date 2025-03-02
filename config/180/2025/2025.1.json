@@ -99,7 +99,7 @@
                     "type": "select",
                     "required": true,
                     "code": "robot",
-                    "defaultValue": "R1",
+                    "defaultValue": "",
                     "choices": {
                         "R1": "Red 1 (Processor Side)",
                         "R2": "Red 2 (Middle)",
@@ -121,7 +121,7 @@
                         "2": "Centered",
                         "3": "Edge"
                     },
-                    "defaultValue": "0",
+                    "defaultValue": "",
                     "formResetBehavior": "reset"
                 }
             ]
@@ -279,7 +279,7 @@
                         "2": "Shallow",
                         "3": "Deep"
                     },
-                    "defaultValue": "-1",
+                    "defaultValue": "",
                     "formResetBehavior": "reset"
                 },
                 {
@@ -310,7 +310,7 @@
                         "1": "1 - Average",
                         "2": "2 - Good"
                     },
-                    "defaultValue": "-1",
+                    "defaultValue": "",
                     "formResetBehavior": "reset"
                 },
                 {
