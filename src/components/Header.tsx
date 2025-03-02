@@ -5,8 +5,8 @@ export function Header() {
   const page_title = useQRScoutState(state => state.formData.page_title);
   return (
     <Helmet>
-      <title>QRScout | {page_title}</title>
-      <link rel="icon" href="/QRScout/favicon.ico" />
+      <title>ComboScout | {page_title}</title>
+      <link rel="icon" href="/favicon.ico" />
     </Helmet>
   );
 }
