@@ -2,7 +2,7 @@
     "$schema": "../../../public/schema.json",
     "title": "ComboScout",
     "page_title": "Reefscape",
-    "teamNumber": 4096,
+    "teamNumber": 8051,
     "delimiter": "\t",
     "theme": {
         "light": {
